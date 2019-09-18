@@ -144,3 +144,56 @@ a{
   font-size: 18px;
   opacity: 0.4;
 }
+
+/* float container */
+/* disposizione */
+.container1{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.container1:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container1 .leftbox{
+  width: 33.33%;
+  padding: 25px;
+  float: left;
+}
+
+.container1 .centerbox{
+  width: 33.33%;
+  padding: 25px;
+  float: left;
+}
+
+.container1 .rightbox{
+  width: 33.33%;
+  padding: 25px;
+  float: left;
+}
+
+/* contenuto */
+.container1 img{
+  width: 40%;
+  margin: 30px;
+}
+
+.container1 h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #63c700;
+  margin-bottom: 40px;
+}
+
+.container1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.5;
+}
