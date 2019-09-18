@@ -10,6 +10,7 @@ header{
   height: 500px;
   background: #0D325A;
   padding: 25px 100px;
+  position: relative;
 }
 
 ul{
@@ -43,7 +44,7 @@ a{
   padding: 10px 20px;
 }
 
-#piano{
+.piano{
   background-color: #63c700;
   border-radius: 5px;
   padding: 10px 6px;
@@ -83,4 +84,30 @@ a{
 
 .navhead li:last-child{
   width: 10%;
+}
+
+/* titolo */
+#title{
+  width: 60%;
+}
+
+#title h2{
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+}
+
+#title .piano{
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* posizionamento titolo */
+#title{
+  position: absolute;
+  top: 40%;
 }
