@@ -177,9 +177,13 @@ a{
   float: left;
 }
 
+.fix{
+  height: 350px;
+}
+
 /* contenuto */
 .container1 img{
-  width: 40%;
+  height: 200px;
   margin: 30px;
 }
 
