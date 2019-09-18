@@ -11,6 +11,7 @@ header{
   background: #0D325A;
   padding: 25px 100px;
   position: relative;
+  overflow: hidden;
 }
 
 ul{
@@ -117,7 +118,7 @@ a{
   width: 60%;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 55%;
 }
 
 /* section1 */
