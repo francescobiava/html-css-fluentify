@@ -201,3 +201,35 @@ a{
   line-height: 22px;
   opacity: 0.5;
 }
+
+/* footer */
+/* faq */
+#faq{
+  width: 100%;
+  height: 150px;
+  padding: 40px 100px;
+  background: #0D325A;
+}
+
+#faq h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#faq a{
+  font-weight: 600;
+  text-transform: none;
+  color: #ffb700;
+}
+
+#faq a:hover{
+  text-decoration: underline;
+}
+
+#faq p{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  opacity: 0.5;
+}
