@@ -178,7 +178,15 @@ a{
 }
 
 .fix{
-  height: 350px;
+  height: 320px;
+}
+
+.separator{
+  width: 30px;
+  height: 2px;
+  margin: 20px auto;
+  background-color: #666;
+  opacity: 0.4;
 }
 
 /* contenuto */
@@ -192,7 +200,6 @@ a{
   font-size: 20px;
   font-weight: 600;
   color: #63c700;
-  margin-bottom: 40px;
 }
 
 .container1 p{
