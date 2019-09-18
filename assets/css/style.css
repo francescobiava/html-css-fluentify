@@ -240,3 +240,30 @@ a{
   color: #fff;
   opacity: 0.5;
 }
+
+/* bottom */
+#bottom{
+  width: 100%;
+  height: 400px;
+  background: #17406B;
+  padding: 30px 100px;;
+}
+
+.navbottom a{
+  text-transform: none;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.navbottom a:hover{
+  text-decoration: underline;
+}
+
+.navbottom li:first-child{
+  font-family: Arial;
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+}
