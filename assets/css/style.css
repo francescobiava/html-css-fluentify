@@ -325,6 +325,65 @@ a{
   font-size: 16px;
 }
 
+/* section4 */
+#section4{
+  height: 500px;
+  padding: 25px 100px;
+  background-color: #0D325A;
+}
+
+#section4::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#section4 img{
+  width: 100%;
+}
+
+.textsection4{
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.imgsection4{
+  width: 60%;
+  float: left;
+}
+
+.textsection4 h4{
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.textsection4 span{
+  color: #ffb700;
+}
+
+.textsection4 p{
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.4;
+  margin-bottom: 25px;
+}
+
+.textsection4 a{
+  text-decoration: underline;
+  text-transform: none;
+  color: rgba(180, 244, 255, 0.8);
+}
+
+.textsection4 div{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 /* footer */
 /* faq */
 #faq{
