@@ -557,6 +557,94 @@ a{
   border-radius: 5px;
 }
 
+/* section8 */
+#section8{
+  height: 400px;
+  margin: 80px 200px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#section8::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#section8 h4{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+
+#section8 .leftbox{
+  width: 30%;
+  float: left;
+}
+
+#section8 .centerbox{
+  width: 30%;
+  float: left;
+  margin: 0 5%;
+}
+
+#section8 .rightbox{
+  width: 30%;
+  float: left;
+}
+
+#section8 img{
+  height: 40px;
+}
+
+#section8 h5{
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+#section8 p{
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+#section8 .blue{
+  width: 95%;
+  height: 5px;
+  background-color: #98c8f8;
+  margin: 20px 0;
+}
+
+#section8 .leftbox a{
+  text-transform: none;
+  text-decoration: underline;
+  color: #98c8f8;
+}
+
+#section8 .orange{
+  width: 95%;
+  height: 5px;
+  background-color: #ffb700;
+  margin: 20px 0;
+}
+
+#section8 .centerbox a{
+  text-transform: none;
+  text-decoration: underline;
+  color: #ffb700;
+}
+
+#section8 .green{
+  width: 95%;
+  height: 5px;
+  background-color: #63c700;
+  margin: 20px 0;
+}
+
+#section8 .rightbox a{
+  text-transform: none;
+  text-decoration: underline;
+  color: #63c700;
+}
+
 /* footer */
 /* faq */
 #faq{
